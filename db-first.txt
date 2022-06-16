@@ -1,0 +1,23 @@
+CARS
+
+id - INT - UNSIGNED - PRIMARY KEY - NOTNULL - AUTOINCREMENT - UNIQUE
+brand - VARCHAR(64) - NOTNULL
+model - VARCHAR(255) - NOTNULL
+version - VARCHAR(32) - NULL
+description - TEXT - NULL
+year - YEAR - NOTNULL
+fuel - VARCHAR(16) - NOTNULL
+chassis_type - VARCHAR(16) - NOTNULL
+horsepower - SMALLINT - UNSIGNED - NULL
+transmission - VARCHAR(16) - NOTNULL
+doors - TINYINT - UNSIGNED - NOTNULL
+seats - TINYINT - UNSIGNED - NOTNULL
+previous_owners - TINYINT - UNSIGNED - NOTNULL
+paint_color - VARCHAR(32) - NOTNULL
+interior_color - VARCHAR(32) - NULL
+interior_material - VARCHAR(32) - NULL
+damaged - TINYINT - NOTNULL
+feature_array - TEXT - NOTNULL
+thousand_km - SMALLINT - NOTNULL
+price - MEDIUMINT - UNSIGNED - NULL
+picture - TEXT - NOTNULL - DEFAULT("/img/default.jpg");
